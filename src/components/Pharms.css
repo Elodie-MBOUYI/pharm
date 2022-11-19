@@ -1,0 +1,164 @@
+.pharms{
+        transform: translate(90px, 50px);
+        width: 90%;
+        height: 50vh;
+}
+.pharms h2{
+    color: #127535;
+    text-align: center;
+    font-size: 20px;
+}
+.pharms p{
+    color: black;
+    text-align: center;
+    font-size: 17px;
+}
+
+.step{
+    background-color: var(--overlay);
+    text-align: center;
+    color: #ffffff;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.step:before{
+    content: '';
+    background: url('./images/Vendeuse44.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.step button{
+    padding:10px 10px ;
+    font-size:1.2rem ;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#127535 ;
+    border:1px solid #127535 ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(-70px,270px);
+}
+.stepy{
+    background-color: var(--overlay-yellow);
+    text-align: center;
+    color: #ffffff;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+.stepy button{
+    padding:10px 10px ;
+    font-size:1rem ;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#ffffff ;
+    border:1px solid #ffffff ;
+    border-radius:10px ;
+    cursor: pointer;
+    transform: translate(-70px,270px);
+}
+.stepy:before{
+    content: '';
+    background: url('./images/Vendeur1.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.liner{
+  display: block;
+  width: 100px;
+  height:3px ;
+  margin:5px auto ;
+  background-color:#127535 ;
+}
+
+@media screen and (max-width:940px) {
+    .pharms{
+        width: 88%;
+        height: 100%;
+        transform: translate(20px, 0px);
+    }
+    .pharms p{
+        color: black;
+        text-align: center;
+        font-size: 12px;
+    }
+    .step{
+        background-color: var(--overlay);
+        text-align: center;
+        color: #ffffff;
+        height: 30vh;
+        width: 100%;
+        position: relative;
+        margin-top: 40px;
+    }
+    
+    .step:before{
+        content: '';
+        background: url('./images/Vendeuse44.jpg') no-repeat center center/cover ;
+        height: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .step button{
+        padding:5px 5px ;
+        font-size:1.2rem ;
+        color: #ffffff;
+        font-weight: 100;
+        text-transform: uppercase;
+        background-color:#127535 ;
+        border:1px solid #127535 ;
+        border-radius:10px ;
+        cursor: pointer;
+        transform: translate(-70px,100px);
+    }
+    .stepy{
+        background-color: var(--overlay-yellow);
+        text-align: center;
+        color: #ffffff;
+        height: 35vh;
+        width: 100%;
+        position: relative;
+        margin-top: 40px;
+    }
+    .stepy button{
+        padding:10px 10px ;
+        font-size:1rem ;
+        color: black;
+        font-weight: 600;
+        text-transform: uppercase;
+        background-color:#ffffff ;
+        border:1px solid #ffffff ;
+        border-radius:10px ;
+        cursor: pointer;
+        transform: translate(-70px,170px);
+    }
+    .stepy:before{
+        content: '';
+        background: url('./images/Vendeur1.jpg') no-repeat center center/cover ;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}

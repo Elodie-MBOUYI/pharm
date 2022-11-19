@@ -3,6 +3,7 @@
   --primary-dark:rgb(118, 118, 189) ;
   --secondary-color:rgb(211, 211, 183) ;
   --overlay :rgb(0,0,0,.7) ;
+  --overlay-yellow :rgb(4,161,24,.6) ;
 }
 
 *{
