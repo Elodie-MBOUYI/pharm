@@ -6,8 +6,9 @@ function Home () {
     <div className='home'>
         <div className='content'>
             <p>A Port-Gentil...</p>
-            <p>L'application Médic'App</p>
-            <p> met vos Pharmacies  à votre portée </p>
+            <p>Avec l'application Médic'App</p>
+            <p>Consulter,commander et acheter </p>
+            <p>Connaître la pharmacie de garde</p>
             <button href='/' className='button'>Vos Pharmacies</button>
         </div>
     </div>

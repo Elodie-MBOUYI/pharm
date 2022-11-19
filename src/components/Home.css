@@ -43,6 +43,12 @@
     font-size: 1.5rem;
     transform: translate(0px, 80px);
 } 
+
+.home .content p:nth-child(4) {
+    font-size: 2rem;
+    font-weight: 400;
+    transform: translate(0px, 40px);
+} 
 .home button{
     margin: 1rem 0;
     width: 300px;
@@ -62,4 +68,34 @@
     .home .content p {
         font-size: 1.5rem;
     } 
+
+    .home .content p:first-child {
+        font-style: italic;
+        font-size: 1.5rem;
+        transform: translate(0px, 40px);
+    } 
+    .home .content p:nth-child(2) {
+        font-size: 2rem;
+        font-weight: 400;
+        transform: translate(0px, -10px);
+    } 
+    .home .content p:nth-child(3) {
+        font-style: italic;
+        font-size: 1.2rem;
+        transform: translate(0px, -55px);
+    } 
+    
+    .home .content p:nth-child(4) {
+        font-size: 1.5rem;
+        font-weight: 400;
+        transform: translate(0px, -80px);
+    } 
+    .home button{
+        margin: 1rem 0;
+        width: 170px;
+        transform: translate(150px, -100px);
+    }
+    .home button{
+        font-size: 12px;
+    }
 }
