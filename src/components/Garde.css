@@ -1,0 +1,43 @@
+.garde{
+    width: 90%;
+    height: 80vh;
+    transform: translate(60px, 240px);
+}
+.all{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    transform: translate(50px, 30px);
+}
+.garde h2{
+    transform: translate(50px, 0px);
+    color: #127535;
+    text-align: center;
+}
+.gardeimg{
+    width: 10px;
+    height: 35vh;
+}
+.texte{
+    transform: translate(620px, 150px);
+}
+.linerr{
+  display: block;
+  width: 100px;
+  height:3px ;
+  margin:5px auto ;
+  background-color:#127535 ;
+  transform: translate(50px, 0px);
+}
+.btn button{
+    padding:17px 28px ;
+    font-size:1.2rem ;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#127535 ;
+    border:1px solid #127535 ;
+    border-radius:10px ;
+    cursor: pointer;
+  }
+  

@@ -29,6 +29,9 @@ function Navbar() {
                     <a href='/'>Pharmacies</a>
                 </li>
                 <li className='nav-item'>
+                    <a href='/'>Pharmacie de Garde</a>
+                </li>
+                <li className='nav-item'>
                     <a href='/'>Contact</a>
                 </li>
             </ul>

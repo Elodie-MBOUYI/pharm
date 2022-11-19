@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-// import cap from './images/cap.png'
 import './Pharms.css'
 
 
@@ -37,7 +36,6 @@ export default class MultipleItems extends Component {
             <div className="stepy">
             <button href='./' >Pharmacie Grand Village</button>
             </div>
-            
           </Slider>
         </div>
       );
